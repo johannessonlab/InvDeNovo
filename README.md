@@ -4,7 +4,9 @@ Python scripts for identifying inversions in fragmented de novo genome assemblie
 
 ## InvDeNovo.py
 Version 0.2
+
 Author: Jesper Svedberg, Department of Organismal Biology, Uppsala University
+
 E-mail: jesper.svedberg@ebc.uu.se
 
 InvDeNovo.py tries to identify inversions in fragmented denovo assembles. It does this by
@@ -51,6 +53,7 @@ fragmented assembly (ie, the breakpoint is located between contigs), or when you
 tandem or overlapping inversions, but it also increases the false positive error rate. This
 calls for careful manual curation, and we've found that many candidate inversions are actually
 caused by assembly errors.
+
 The script will look for single contigs that map at two different locations at the target chromosome
 and output the two alignment locations and the distance between them.
 
@@ -60,7 +63,9 @@ Usage: InvDeNovo_OneBreakpoint.py -c target_chromosome [-s minimum_alignment_blo
 
 -s sets minimum alignment block length. Repeats often have very short alignment blocks, and this
 parameter can filter out those.
+
 -d sets the minimum distance between the two alignment coordinates.
+
 -v sets verbose output.
 
 Non-verbose output format:
