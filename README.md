@@ -43,7 +43,9 @@ If contig1 = -contig2, both breakpoints are located within one contig.
 
 ## InvDeNovo_OneBreakpoint.py
 Version 0.2
+
 Author: Jesper Svedberg, Department of Organismal Biology, Uppsala University
+
 E-mail: jesper.svedberg@ebc.uu.se
 
 Companion script to InvDeNovo.py. The script tries to identify inversion in fragmented denovo
