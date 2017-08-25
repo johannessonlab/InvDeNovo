@@ -5,10 +5,6 @@
 # Author: Jesper Svedberg, Department of Organismal Biology, Uppsala University
 # E-mail: jesper.svedberg@ebc.uu.se
 #
-# This software is released under the Creative Commons Attribution-NonCommercial-ShareAlike
-# 3.0 Unported (CC BY-NC-SA 3.0) License. See https://creativecommons.org/licenses/by-nc-sa/3.0/
-# for details.
-#
 # InvDeNovo.py tries to identify inversions in fragmented denovo assembles. It does this by
 # looking for inversion breakpoints in a MUMmer alignment coordinate file. The script looks
 # for a pairs of contigs that a) both align next to each other at two different locations on
@@ -39,6 +35,12 @@
 # Output: btab_filename    chromosome    contig1:contig2    gap_length    coord_breakpoint1    coord_breakpoint2
 #
 # If contig1 = -contig2, both breakpoints are located within one contig.
+#
+# ----------------------------
+# This software is released under the Creative Commons Attribution-NonCommercial-ShareAlike
+# 3.0 Unported (CC BY-NC-SA 3.0) License. See https://creativecommons.org/licenses/by-nc-sa/3.0/
+# for details.
+
 
 import sys
 import csv
