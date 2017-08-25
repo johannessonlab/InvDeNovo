@@ -26,6 +26,11 @@
 #
 # Non-verbose output format:
 # Inversion candidate: target_chromosome vs. contig	alignment_distance    coord_alignment1    coord_alignment2
+#
+# ----------------------------
+# This software is released under the Creative Commons Attribution-NonCommercial-ShareAlike
+# 3.0 Unported (CC BY-NC-SA 3.0) License. See https://creativecommons.org/licenses/by-nc-sa/3.0/
+# for details.
 
 
 import sys
