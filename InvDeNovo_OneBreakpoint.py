@@ -361,10 +361,10 @@ parser.add_argument('-v','--verbose',help='Verbose output. Default=False', dest=
 args = parser.parse_args()
 
 tabFile = args.filename
-size_limit = args.size
+size_limit = int(args.size)
 isVerbose = args.verbose
 target_contig = args.chromosome
-TRANSLIMIT = args.distance
+TRANSLIMIT = int(args.distance)
 
 '''
 isVerbose = False
