@@ -362,8 +362,8 @@ parser.add_argument('-s','--score',help='Score cutoff. Default=1', default=1)
 args = parser.parse_args()
 
 tabFile = args.filename
-gapLimit = args.gaps
-SCORE_CUTTOFF = args.score
+gapLimit = int(args.gaps)
+SCORE_CUTTOFF = int(args.score)
 target_scaffold = args.chromosome
 
 ALLOW_INTERNAL = True
